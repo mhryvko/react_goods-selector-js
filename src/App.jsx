@@ -16,7 +16,7 @@ export const goods = [
 ];
 
 export const App = () => {
-  const [selectedGood, setSelectedGood] = useState('');
+  const [selectedGood, setSelectedGood] = useState('Jam');
 
   const handleSelect = item => {
     setSelectedGood(item);
